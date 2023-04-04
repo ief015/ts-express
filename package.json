@@ -2,14 +2,14 @@
   "name": "ts-express",
   "version": "1.0.0",
   "description": "Example express server using typescript with HMR",
+  "author": "https://github.com/ief015",
+  "homepage": "https://github.com/ief015/ts-express",
+  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "concurrently --names \"tsc,express\" --kill-others \"tsc --watch\" \"nodemon -q dist/index.js\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2"
